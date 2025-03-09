@@ -12,7 +12,7 @@ app.use(cookieParser());
 
 // routes
 
-app.use('/api/v1/github', githubRouter);
+app.use('/github', githubRouter);
 
 app.get('/', (req, res) => {
   res.send('Welcome to Github Detail API');
