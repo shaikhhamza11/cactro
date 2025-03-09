@@ -4,4 +4,4 @@ config({
   path: `.env.${process.env.NODE_ENV || 'development'}.local`,
 });
 
-export const { PORT } = process.env;
+export const { PORT, GITHUB_TOKEN, GITHUB_URL, GITHUB_USERNAME } = process.env;

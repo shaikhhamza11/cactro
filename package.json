@@ -11,14 +11,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.8.2",
     "chalk": "^5.4.1",
+    "cookie-parser": "^1.4.7",
     "dotenv": "^16.4.7",
     "express": "^4.21.2"
   },
   "devDependencies": {
-    "@eslint/js": "^9.21.0",
+    "@eslint/js": "^9.22.0",
     "@types/node": "^22.13.5",
-    "eslint": "^9.21.0",
+    "eslint": "^9.22.0",
     "globals": "^16.0.0",
     "nodemon": "^3.1.9"
   }
